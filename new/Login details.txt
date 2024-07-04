@@ -1,0 +1,11 @@
+Login details
+
+
+Student Login:
+UserName :student
+Password:password
+
+
+Teacher login:
+UserName: teacher
+Password: password

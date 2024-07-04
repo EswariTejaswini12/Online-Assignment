@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Examination</title>
+    <link rel="stylesheet" href="c.css">
+</head>
+<body>
+    <div id="navbar">
+        <button id="student-btn">Student Login</button>
+        <button id="teacher-btn">Teacher Login</button>
+    </div>
+
+    <div id="login-section" class="section">
+        <div id="student-login" class="login-form">
+            <h2>Student Login</h2>
+            <form id="student-login-form">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div id="teacher-login" class="login-form">
+            <h2>Teacher Login</h2>
+            <form id="teacher-login-form">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="student-section" class="section">
+        <h2>Student Dashboard</h2>
+        <div id="course-buttons"></div>
+        <div id="course-questions"></div>
+        <div id="feedback"></div>
+    </div>
+
+    <div id="teacher-section" class="section">
+        <h2>Teacher Dashboard</h2>
+        <form id="add-new-course-form">
+            <input type="text" id="new-course-name" placeholder="New Course Name" required>
+            <button type="submit">Add Course</button>
+        </form>
+        <form id="add-question-form">
+            <select id="course-name-for-question" class="course-select"></select>
+            <input type="text" id="new-question" placeholder="New Question" required>
+            <input type="text" id="option-1" placeholder="Option 1" required>
+            <input type="text" id="option-2" placeholder="Option 2" required>
+            <input type="text" id="option-3" placeholder="Option 3" required>
+            <input type="text" id="option-4" placeholder="Option 4" required>
+            <input type="number" id="correct-answer" placeholder="Correct Answer Index (0-3)" required>
+            <button type="submit">Add Question</button>
+        </form>
+        <form id="remove-course-form">
+            <input type="text" id="course-name-to-remove" placeholder="Course Name">
+            <button type="submit">Remove Course</button>
+        </form>
+        
+        <form id="remove-question-form">
+            <select id="course-name-for-removal" class="course-select"></select>
+            <select id="question-for-removal"></select>
+            <button type="submit">Remove Question</button>
+        </form>
+    </div>
+
+    <script src="s.js"></script>
+</body>
+</html>

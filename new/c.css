@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text for readability */
+}
+
+#navbar {
+    background-color: #343a40;
+    padding: 10px;
+    text-align: center;
+}
+
+#navbar button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#navbar button:hover {
+    background-color: #0056b3;
+}
+
+/* Section styles */
+.section {
+    display: none;
+    padding: 20px;
+}
+
+.login-form {
+    display: none;
+}
+
+#student-login, #teacher-login {
+    background-color: #495057;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+#student-login h2, #teacher-login h2 {
+    margin-top: 0;
+    color: #fff;
+}
+
+#student-login-form, #teacher-login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#student-login-form input, #teacher-login-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+#student-login-form button, #teacher-login-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#student-login-form button:hover, #teacher-login-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Dashboard styles */
+#student-section, #teacher-section {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#course-buttons {
+    margin-bottom: 20px;
+}
+
+#course-buttons button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#course-buttons button:hover {
+    background-color: #0056b3;
+}
+
+#course-questions {
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+.question label {
+    display: block;
+    margin: 5px 0;
+    color: #fff;
+}
+
+#feedback {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Form styles for teacher actions */
+form {
+    margin-bottom: 20px;
+    background-color: #495057;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form input, form select, form button {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+form input {
+    background-color: #343a40;
+    color: #fff;
+}
+
+form select {
+    background-color: #343a40;
+    color: #fff;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
